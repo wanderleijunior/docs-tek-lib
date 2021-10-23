@@ -4,7 +4,7 @@
 
 Os arquivos `environments` eram e continuam sendo onde se configura variáveis de ambiente. Para quem já usava o módulo de login para autenticar e para quem vai iniciar um novo projeto as configurações são as mesmas. 
 
-A diferença fica por conta da propriedade `routePath` definida na propriedade `login`. Essa rota define qual rota a tela de login deverá ser renderizada.  Com o módulo de login era obrigatório que o nome fosse `/modules/login/autenticacao`. Agora você pode definir o nome que preferir. Vamos usar `/login` para seguir com o tutorial.
+A diferença fica por conta da propriedade `routePath` definida na propriedade `login`. Essa rota define qual rota a tela de login deverá ser renderizada.  Com o módulo de login era obrigatório que o valor fosse `/modules/login/autenticacao`. Agora você pode definir o nome que preferir. Vamos usar `/login` para seguir com o tutorial.
 
 Examplo de uso com autenticação feita pelo módulo.
 ```json
