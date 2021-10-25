@@ -11,6 +11,11 @@ module.exports = {
   description: description,
 
   /**
+   * 
+   */
+  base: '/docs-tek-lib/',
+
+  /**
    * Extra tags to be injected to the page HTML `<head>`
    *
    * ref：https://v1.vuepress.vuejs.org/config/#head
