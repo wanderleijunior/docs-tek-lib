@@ -1,15 +1,13 @@
 # TekLogin
 
-## Uso básico
-
 ### Json
 
 *Nota: As propriedades `backgroundStyle` , `logo` e `endPoint` devem ser informadas através de `Accessor` criados no controller.*
   
 ```json  
 {  
-  "name": "auth",  
-  "component": "TekAuth",  
+  "name": "loginPage",  
+  "component": "TekLogin",  
   "backgroundStyle": "{{LoginController.backgroundImgUrl}}",  
   "logo": "{{LoginController.logo}}",  
   "endPoint": "{{LoginController.endPoint}}"  
@@ -40,7 +38,11 @@ export class LoginController {
 
 ```  
 Nota: *\*Os valores devem ser obtidos através do serviço `Config` do `@zeedhi\core`. Partindo do pressuposto que o seu produto foi criado com o `Teknisa CLI`, as propriedades exemplificadas acima estará disponível no `Config` assim  que você preencher o(s) arquivo(s) environments (`devEnvironment.json` e `prod.environment.json`).*
-  
+
+Nota: *\*\*Lembre-se de registrar seu controller no arquivos `controllers/index.ts`.*
+
+#### Propriedades
+
 - A propriedade `endPoint` indica a url base do backend em que o componente de login irá fazer as requisições.  
 
 - As demais propriedades podem ser consultadas na documentação do componente `ZdLogin` já que o `TekLogin` estende o mesmo.

@@ -10,6 +10,8 @@ module.exports = {
    */
   description: description,
 
+  base: '/docs-tek-lib/',
+
   /**
    * Extra tags to be injected to the page HTML `<head>`
    *
@@ -46,12 +48,12 @@ module.exports = {
         link: '/services/',
       },
       {
-        text: 'Config',
-        link: '/config/'
+        text: 'Changelog',
+        link: '/changelog/'
       },
       {
-        text: 'VuePress',
-        link: 'https://v1.vuepress.vuejs.org'
+        text: 'Dev',
+        link: '/'
       }
     ],
     sidebar: {
@@ -63,7 +65,7 @@ module.exports = {
             '',
             'instalation',
             'configuration',
-            'using-vue',
+            'existing-products'
           ]
         }
       ],
@@ -72,7 +74,8 @@ module.exports = {
           title: 'Componentes',
           collapsable: false,
           children: [
-            'login',
+            '',
+            'login'
           ]
         }
       ],
@@ -81,7 +84,18 @@ module.exports = {
           title: 'Serviços',
           collapsable: false,
           children: [
+            '',
             'tekLibAuth',
+          ]
+        }
+      ],
+      '/changelog/': [
+        {
+          title: 'Changelog',
+          collapsable: false,
+          children: [
+            '',
+            'tek-lib'
           ]
         }
       ]

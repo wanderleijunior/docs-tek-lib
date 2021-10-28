@@ -2,7 +2,7 @@
 
 ### O que é?
 
-TekLib é uma biblioteca (frontend) que contém funcionalidades comuns para atender aplicações Zeedhi Next contruídos a partir do Teknisa CLI ( Produtos Teknisa ). 
+TekLib é uma biblioteca (frontend) que contém funcionalidades comuns para atender aplicações Zeedhi Next construídas a partir do Teknisa CLI ( Produtos Teknisa ). 
 
 ### Para que serve?
 
